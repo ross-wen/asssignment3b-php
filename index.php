@@ -25,13 +25,15 @@
       </header>
       
         <main class="mdl-layout__content" style="margin-left:75px;">
-      <p text>Choose your pizza size</p>
+      <p text>Choose Your Pizza Size</p>
       <form  action="handler.php" method=post>
       <input type="radio" id="large" name="pizza_size" value="6.00" required>
-      <label for="large">large $6.00</label><br>
+      <label for="large">Large $6.00</label><br>
       <input type="radio" id="extra_large" name="pizza_size" value="10.00">
-      <label for="extra_large">extra large $10.00</label><br>
-      <p text>Choose your pizza toppings</p>
+      <label for="extra_large">Extra Large $10.00</label><br>
+      <p text>Choose How Many Pizza Toppings (0-4) </p>
+      <input type="radio" id="1t" name="toppings" value="0" required>
+      <label for="1t">0 toppings $0 </label><br>
       <input type="radio" id="1t" name="toppings" value="1.00" required>
       <label for="1t">1 toppings $1.00</label><br>
       <input type="radio" id="2t" name="toppings" value="1.75">

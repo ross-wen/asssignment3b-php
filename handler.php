@@ -43,9 +43,9 @@ $m=$_POST['pizza_size']+$_POST['toppings'];
     elseif ($_POST['toppings']==2.50){
       $toppings="3 toppings";
     }
-    elseif($_POST['toppings']==3.25){
+    elseif($_POST['toppings']==3.35){
       $toppings="4 toppings";
     }
-echo "your $size pizza with $toppings cost you $";
+echo "You have ordered an $size pizza with $toppings. This will cost you $";
 echo round($m*1.13,2);?>
 </html>
