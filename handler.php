@@ -34,8 +34,11 @@ $m=$_POST['pizza_size']+$_POST['toppings'];
     elseif ($_POST['pizza_size']==10.00){
       $size="extra large";
     }
-    if ($_POST['toppings']==1.00){
-      $toppings="1 toppings";
+    if ($_POST['toppings']==0){
+      $toppings="0 toppings";
+    }
+    elseif ($_POST['toppings']==1.00){
+      $toppings="1 topping";
     }
     elseif ($_POST['toppings']==1.75){
       $toppings="2 toppings";
