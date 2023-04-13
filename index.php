@@ -40,8 +40,8 @@
       <label for="2t">2 toppings $1.75</label><br>
       <input type="radio" id="3t" name="toppings" value="2.50">
       <label for="3t">3 toppings $2.50</label><br>
-      <input type="radio" id="4t" name="toppings" value="3.25">
-      <label for="4t">4 toppings $3.25</label><br>
+      <input type="radio" id="4t" name="toppings" value="3.35">
+      <label for="4t">4 toppings $3.35</label><br>
       <?php
         if (isset($_GET) && $_GET['error'] == 1) {
             echo "<p class=\"variablecolour\">please choose one</p>";
