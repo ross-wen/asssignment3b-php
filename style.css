@@ -1,7 +1,8 @@
 body {
-  background-color:rgb(102, 204, 255);
-      color:red;
-      font-family:'times new roman''Times New Roman', Times, serif;
+  background-color:rgb(214, 235, 245);
+      color:rgb(0, 0, 0);
+      font: italic small-caps bold 12px/30px Georgia, serif;
+
 }
 .variablecolour
 {
